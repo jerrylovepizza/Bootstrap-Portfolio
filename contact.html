@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Renjie Dai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- bootstrap for CSS, JS bundle-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Permanent+Marker" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <!-- title logo icon -->
+    <link rel="shortcut icon" href="assets\images\jerry3.jpg" type="image/x-icon">
+</head>
+
+<!--========================================================================================================================================
+B O D Y               B O D Y               B O D Y               B O D Y               B O D Y               B O D Y               B O D Y
+==========================================================================================================================================-->
+
+<body>
+    <!--=============================================================TOP====================================================================-->
+    <div class="row">
+        <!---- 1st Row, 1st column - bootstrap responsive image(Top) ---->
+        <div class="col-lg-12">
+            <img src="assets/images/10.jpg" class="img-fluid iw-topimg" alt="Responsive image">
+        </div>
+    </div>
+
+    <div class="row">
+        <!---- 2nd Row, 1st column - bootstrap nav-bar(Top) ---->
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark iw-navbar">
+                <span class="rj-word">Renjie Dai &nbsp;&nbsp;&nbsp;</span> <!-- Renjie Dai -->
+                <a class="navbar-brand" href="index.html">
+                    <!--Jerry Day logo link-->
+                    <span><img src="assets/images/icon.png" class="jd-logo" alt="J.D."></span>
+                    <!--I.W. logo-->
+                </a> <!-- add class or id in <span> element sometimes work for txt but not for image -->
+                <!----------------------------------Dropdown Button------------------------------>
+                <div class="dropdown">
+                    <button class="navbar-toggler" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="portfolio.html"><i class="fas fa-gamepad"></i></a>
+                        <a class="dropdown-item" href="contact.html"><i class="fas fa-envelope"></i></a>
+                        <a class="dropdown-item" href="index.html"><i class="fas fa-home"></i></a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                            <!--nav-bar link1-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <!--nav-bar link2-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                            <!--nav-bar link3-->
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <!--nav-bar right side words-->
+                        <i class="fas fa-spider"></i>
+                        <!--font awesome-->
+                        University of Denver
+                        <i class="fas fa-bowling-ball"></i>
+                        <!--font awesome-->
+                    </span>
+                </div>
+            </nav> <!-- navbar-->
+        </div>
+    </div>
+
+    <!--=============================================================CENTER================================================================-->
+    <div class="center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 topic">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="iw-content">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for=""><i class="fas fa-user-circle"></i>&nbsp;Name</label>
+                                    <input type="text" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for=""><i class="fas fa-envelope-square"></i>&nbsp;Email</label>
+                                    <input type="t" class="form-control" placeholder="example@123.com">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for=""><i class="fas fa-phone-square"></i>&nbsp;Telephone</label>
+                                    <input type="number" class="form-control" placeholder="xxx-xxx-xxxx">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for=""><i class="fab fa-facebook-square"></i>&nbsp;facebook</label>
+                                    <input type="text" class="form-control" placeholder="example@facebook.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"><i class="fas fa-pen-square"></i>&nbsp;Message</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label" for="gridCheck">
+                                        Subscribe me
+                                    </label>
+                                    <button type="submit" class="btn btn-primary" id="button-customize">Submit</button>
+                                    <!----insert a id(#) in this button to customize the position---->
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===============================================================FOOT================================================================-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="quote-foot">
+                <div class="card-body">
+                    <!--⬇⬇⬇ bootstrap footer-->
+                    <blockquote class="blockquote mb-0">
+                        <p class="handwriting">
+                            <!--write quote here-->
+                        </p>
+                        <footer class="blockquote-footer">
+                            <p class="cpright">Copyright &copy; 2019 Renjie Dai</p> <cite title="Source Title"></cite>
+                        </footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

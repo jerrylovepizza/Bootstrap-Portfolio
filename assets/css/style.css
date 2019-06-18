@@ -1,0 +1,424 @@
+/*--========================================================================================================================================
+	CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE      CSS STYLE
+==========================================================================================================================================-*/
+/* ------------------------Page Click-in "fade-in" effect!!------------------- */
+@keyframes fade-in{
+    0%{opacity: 0;
+         }
+    100%{
+        opacity: 1;
+        }
+}
+@-webkit-keyframes fade-in{
+        0%{opacity: 0;
+         }
+    100%{
+        opacity: 1;
+        }
+}
+@-moz-keyframes fade-in{
+        0%{opacity: 0;
+         }
+    100%{
+        opacity: 1;
+        }
+}
+@-o-keyframes fade-in{
+        0%{opacity: 0;
+         }
+    100%{
+        opacity: 1;
+        }
+}
+@-ms-keyframes fade-in{
+        0%{opacity: 0;
+         }
+    100%{
+        opacity: 1;
+        }
+}
+body{
+    animation:fade-in .5s linear 1;
+    -webkit-animation:fade-in .5s linear 1;
+    -moz-animation:fade-in .5s linear 1;
+    -o-animation:fade-in .5s linear 1;
+    -ms-animation:fade-in .5s linear 1;
+}
+
+body {
+    background-image: url("../images/port-bg.jpg");
+    background-repeat: initial;
+    background-attachment: fixed;
+    /* background-size:cover; */
+    /* background-size: 100% 100%; */ /* open this to make a responsive pic */
+}
+
+/*------------------------------------- NAV -----------------------------------*/
+.iw-topimg{
+    /* position: fixed; */
+    width: 100%;
+    height: 120px;
+    /* z-index: 1; */
+}
+
+.iw-navbar{
+    /* position: fixed; */
+    width: 100%;
+    height: 40px;
+    left: 0;
+    /* z-index: 1; */
+}
+
+.iw-word{
+    position: relative;
+    color:white;
+}
+
+.iw-logo{
+    position: relative;
+    bottom: 30px;
+    width:80px;
+    height: auto;
+    border-top:10px solid;
+    border-right:10px solid;
+    border-color:  rgba(0, 0, 0, 0.3);
+}
+
+/* --------------------------------- BODY ------------------------------------ */
+/*.popup + .wrapper = box alway in center*/
+/* .popup{
+    position:fixed;
+    left:50%;
+ }
+
+.popup .wrapper{
+    position:relative;
+    left:-50%;
+} */
+
+.center{
+    width: 80%;
+    margin: 2% 4% 4%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* ------------ HEAD -------------- */
+.topic{
+    float: left;
+    position: relative;
+    width: 100%;
+    padding: 30px 0px 0px;
+    font-size: 35px;
+    text-align: left;
+    color: #d8bd64;
+    border-bottom:3px solid;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* .iw-home{
+    float: left;
+    position: absolute;
+    left:420px;
+    top:500px;
+} */
+
+/*------------- FOOT ---------------*/
+
+.handwriting{
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#quote-foot{
+    float:left;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.cpright{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding: 18px;
+    margin: 0;
+    background: white;
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    z-index: 2;
+}
+/* ========================== page <home> and <contact> =======================*/
+/* ========================== page <home> and <contact> =======================*/
+.iw-img-container{
+    padding-left: 10%;
+}
+.iw-img {
+    float: left;
+    position: relative;
+    margin: 30px 10px 60px;
+    width: 280px;
+    height: 320px;
+    border-radius: 15px;
+  }
+
+.iw-hidden {
+    float: left;
+    position: absolute;
+    margin: 30px 10px 60px;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0);
+    color: #f1f1f1;
+    width: 280px;
+    height: 320px;
+    transition: .1s ease;
+    opacity:0;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.iw-hidden:hover{
+    opacity: 1;
+}
+
+.iw-content{
+    float: left;
+    position: relative;
+    margin: 30px 10px 60px;
+    width: 400px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(219, 219, 219);
+}
+
+.iw-letter ::first-letter{
+    font-family: 'Times New Roman', Times, serif;
+     font-weight: bolder; 
+     
+}
+
+#button-customize{
+    /*-- make sure the container of button is in position:relative; and id(#) position:absolute--*/
+    position: absolute;
+    right: 10px;
+}
+
+/* ============ fade-in effect for Homepage Intro =============
+(has to work with the five group of purple @ codes above)! == */
+
+.first-words{
+    opacity: 0;
+    animation: fade-in 2s ease 0s 1;
+    -webkit-animation: fade-in 2s ease 0s 1;
+    -moz-animation: fade-in 2s ease 0s 1;
+    -o-animation: fade-in 2s ease 0s 1;
+    -ms-animation: fade-in 2s ease 0s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.second-words{
+    opacity: 0;
+    animation: fade-in 4s ease .75s 1;
+    -webkit-animation: fade-in 4s ease .75s 1;
+    -moz-animation: fade-in 4s ease .75s 1;
+    -o-animation: fade-in 4s ease .75s 1;
+    -ms-animation: fade-in 4s ease .75s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.third-words{
+    opacity: 0;
+    animation: fade-in 4s ease 2s 1;
+    -webkit-animation: fade-in 4s ease 2s 1;
+    -moz-animation: fade-in 4s ease 2s 1;
+    -o-animation: fade-in 4s ease 2s 1;
+    -ms-animation: fade-in 4s ease 2s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+/* ========================== page <portfolio> only  =======================*/
+/* ========================== page <portfolio> only  =======================*/
+.picture {
+    float: left;
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 80px 0px 60px;
+    border-radius: 5px;
+}
+.picture:hover {
+    padding: 5px;
+    /* background-image: url("../images/link2.png"); */
+    /* width: 89.5%; */
+    z-index: 1;
+}
+
+.textbar{
+    position: absolute;
+    width: 85%;
+    height: 50px;
+    padding:10px;
+    margin: 30px 0px;
+     background-color: rgb(0,0,0,.5); 
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(224, 220, 183);
+    text-align: center;
+}
+.textbar:hover{
+    transition: 0.3s ease;
+    background-color: transparent;
+    color:rgb(228, 205, 5);
+}
+
+/* ============ fade-in effect for Portfolio pictures =============
+(has to work with the five group of purple @ codes above)! ===== */
+.pic-a, .bar-a{
+    opacity: 0;
+    animation: fade-in 2s ease 0s 1;
+    -webkit-animation: fade-in 2s ease 0s 1;
+    -moz-animation: fade-in 2s ease 0s 1;
+    -o-animation: fade-in 2s ease 0s 1;
+    -ms-animation: fade-in 2s ease 0s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.pic-b, .bar-b{
+    opacity: 0;
+    animation: fade-in 4s ease .5s 1;
+    -webkit-animation: fade-in 4s ease .5s 1;
+    -moz-animation: fade-in 4s ease .5s 1;
+    -o-animation: fade-in 4s ease .5s 1;
+    -ms-animation: fade-in 4s ease .5s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.pic-c, .bar-c{
+    opacity: 0;
+    animation: fade-in 4s ease 1.5s 1;
+    -webkit-animation: fade-in 4s ease 1.5s 1;
+    -moz-animation: fade-in 4s ease 1.5s 1;
+    -o-animation: fade-in 4s ease 1.5s 1;
+    -ms-animation: fade-in 4s ease 1.5s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+.pic-d, .bar-d{
+    opacity: 0;
+    animation: fade-in 4s ease 3s 1;
+    -webkit-animation: fade-in 4s ease 3s 1;
+    -moz-animation: fade-in 4s ease 3s 1;
+    -o-animation: fade-in 4s ease 3s 1;
+    -ms-animation: fade-in 4s ease 3s 1;
+
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+/*--========================================================================================================================================
+ MEDIA QUERY       MEDIA QUERY       MEDIA QUERY       MEDIA QUERY       MEDIA QUERY       MEDIA QUERY       MEDIA QUERY       MEDIA QUERY
+==========================================================================================================================================-*/
+  /*-------------------- media query must put behind at the css style, or it will be overwrited by the style --------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .center{
+        width: 80%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px) {
+    .center{
+        margin-left: 8%;
+        width: 85%;
+    }
+
+      .iw-content{
+        left: 0%;
+        font-size: 16px;
+        margin: 25px 15% 100px;
+        display: block;
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 640px) {
+    .center{
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .iw-img .iw-hidden {
+        margin: 30px 0px 0px;
+        padding-left: 30%;
+    }
+
+    .iw-content{
+        font-size: 16px;
+        margin: 5px 50px 50px;
+        width: 300px;
+    }
+
+    .iw-word{
+        float: left;
+        position: relative;
+        left: 40%;
+        color:white;
+        font-size: 20px;
+    }
+
+    .iw-navbar{
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        left: 0;
+    }
+
+    .iw-topimg{
+        float: left;
+        position: fixed;
+        width: 100%;
+        height: 0px;
+    }
+
+    .iw-logo{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        border-top:0px solid;
+        border-right:0px solid;
+    }
+}
